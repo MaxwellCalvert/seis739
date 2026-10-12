@@ -1,0 +1,25 @@
+---
+import BaseHead from "../components/BaseHead.astro";
+import Footer from "../components/Footer.astro";
+import Header from "../components/Header.astro";
+import { SITE_DESCRIPTION, SITE_TITLE } from "../consts";
+---
+
+<!doctype html>
+<html lang="en">
+	<head>
+		<BaseHead title={SITE_TITLE} description={SITE_DESCRIPTION} />
+	</head>
+	<body>
+		<Header />
+		<main>
+			<h1>A Portfolio Website.</h1>
+			<p>
+				Want to see my work? Head to the about page, or click on my
+				GitHub link.
+			</p>
+			<p>Otherwise, keep scrolling for interactive widgets.</p>
+		</main>
+		<Footer />
+	</body>
+</html>

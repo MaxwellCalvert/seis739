@@ -1,0 +1,83 @@
+---
+import AboutHeroImage from "../assets/blog-placeholder-about.jpg";
+import Layout from "../layouts/BlogPost.astro";
+---
+
+<Layout
+	title="About Me"
+	description="Lorem ipsum dolor sit amet"
+	pubDate={new Date("Oct 12 2026")}
+	heroImage={AboutHeroImage}
+>
+	<h2>Who Am I?</h2>
+	<p>
+		Software engineer who loves web development, video games, and design. I
+		have a passion for creating and building things that allow me to express
+		myself creatively through the logical medium of code. I currently work
+		at Trader Joe's while pursuing my M.S. in Software Engineering and am
+		taking on small freelance opportunities.
+	</p>
+	<h2>Experience</h2>
+	<ul>
+		<li>
+			<p>
+				<strong>Software Engineering Intern</strong> at <em>Veradigm</em
+				> (Summer 2022)
+			</p>
+			<p>
+				Designed and implemented unit tests for UI components, and
+				participated in an interdisciplinary team to design potential AI
+				features for the company's suite of products.
+			</p>
+		</li>
+		<li>
+			<p>
+				<strong>Tax Verification Associate</strong> at <em
+					>Thomson Reuters</em
+				> (Contract, Jan 2025-May 2025)
+			</p>
+			<p>
+				Verified tax scans outputted by the company's software,
+				correcting any errors and ensuring that clients' returns were
+				processed correctly and efficiently. Received regular incentive
+				rewards for high performance and accuracy. Regularly exceeded
+				performance standards by 30-50%. Part of a select group of
+				associates asked to stay past the end of the original contract
+				dates.
+			</p>
+		</li>
+	</ul>
+	<h2>Skills</h2>
+	<ul>
+		<li>Proficient in JavaScript, TypeScript, and Python</li>
+		<li>Experience with React, Astro, and Node.js</li>
+		<li>Familiarity with SQL and NoSQL databases</li>
+		<li>Strong problem-solving and debugging skills</li>
+		<li>Excellent communication and teamwork abilities</li>
+	</ul>
+	<h2>Education</h2>
+	<ul>
+		<li>
+			<p>
+				<strong>M.S. in Computer Science</strong> at <em
+					>University of St. Thomas</em
+				> (Expected Graduation: May 2026)
+			</p>
+			<p>
+				Coursework includes software engineering, web development,
+				database systems, and artificial intelligence.
+			</p>
+		</li>
+		<li>
+			<p>
+				<strong>B.A. in Computer Science, B.S. in Data Science</strong> at
+				<em> Southern Methodist University</em> (Gr: May 2024)
+			</p>
+			<p>
+				Coursework included data structures, algorithms, software
+				engineering, web development, database systems, data modeling,
+				and machine learning.
+			</p>
+		</li>
+	</ul>
+</Layout>
